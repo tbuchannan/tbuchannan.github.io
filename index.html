@@ -63,6 +63,30 @@
       <li>Enjoy!</li>
     </ol>
   </section>
+  <section>
+    <form action="/reviews" method="post">
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name">
+
+      <label for="rating">Ratings:</label>
+      <input type="radio" id="rating" name="sucka" value="1" checked>1
+      <input type="radio" id="rating" name="sucka" value="2">2
+      <input type="radio" id="rating" name="sucka" value="3">3
+      <input type="radio" id="rating" name="sucka" value="4">4
+      <input type="radio" id="rating" name="sucka" value="5">5 <input type="text">
+
+      <label for="Cooking Expertise">Cooking Expertise</label>
+        <select name="expertise">
+          <option value="Select Cooking Expertise" selected disabled>Select Cooking Expertise</option>
+          <option value="Sometimes Cook">Sometimes Cook</option>
+          <option value="Cook Everyday">Cook Everyday</option>
+          <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+          <option value="Professional Chef">Professional Chef</option>
+        </select>
+        <br>
+        <label for="review">Review</label>
+    </form>
+  </section>
   <footer> <p>Original recipe: by Terence Buchannan</p> </footer>
   </body>
 
