@@ -1,8 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="description" content ="A classic breakfast, cant go wrong with eggs, bacon and random green stuff on your plate.">
     <meta charset="utf-8">
     <title>Terence Buchannan's Recipe</title>
+    <script type="text/javascript" src="external_javascript_example.js"/>
+    <link rel="stylesheet" href="css_reset.css" type="text/css">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-12345678-9', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+
+
   </head>
   <body>
     <header><img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/2005/s300/logo-emblem-red-1000-1-.jpg" height = "150"</img>
@@ -61,8 +78,8 @@
       <li>Enjoy!</li>
     </ol>
   </section>
-  <section>
-    <form action="/reviews" method="post">
+  <section id="reviews">
+    <form id="review-form" action="/reviews" method="post">
       <label for="name">Name</label>
       <input id="name" type="text" name="name" placeholder="Enter Reviewer Name">
 
@@ -74,7 +91,7 @@
       <input type="radio" id="rating" name="sucka" value="5">5
 
       <label for="Cooking Expertise">Cooking Expertise</label>
-        <select name="expertise">
+        <select id="expertise" name="expertise">
           <option value="Select Cooking Expertise" selected disabled>Select Cooking Expertise</option>
           <option value="Sometimes Cook">Sometimes Cook</option>
           <option value="Cook Everyday">Cook Everyday</option>
@@ -83,9 +100,11 @@
         </select>
         <br>
 
-        <label for="review">Review</label><br>
-          <textarea name = "review" rows="10" cols="50"></textarea>
+        <label>Review
+          <textarea id="review" name="review" cols="50"></textarea>
+        </label>
         <br>
+        <input type="submit" value="Submit Review">
     </form>
   </section>
 
