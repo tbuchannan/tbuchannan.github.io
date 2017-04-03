@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Terence Buchannan's Recipe</title>
     <script type="text/javascript" src="external_javascript_example.js"></script>
-    <link rel="stylesheet" href="css_reset.css" type="text/css">
+    <link rel="stylesheet" href="css_custom_reset.css" type="text/css">
     <link rel="stylesheet" href="css_syntax_hw.css" type="text/css">
 
     <script>
@@ -79,6 +79,7 @@
     </ol>
   </section>
   <section id="reviews">
+    <h2> Reviews </h2>
     <form id="review-form" action="/reviews" method="post">
       <label for="name">Name</label>
       <input id="name" type="text" name="name" placeholder="Enter Reviewer Name">
@@ -90,21 +91,23 @@
       <input type="radio" id="rating" name="sucka" value="4">4
       <input type="radio" id="rating" name="sucka" value="5">5
 
-      <label for="Cooking_Expertise">Cooking Expertise</label>
-        <select id="Cooking_Expertise" name="expertise">
+      <label for="expertise">Cooking Expertise</label>
+        <select id="expertise" name="expertise">
           <option value="Select Cooking Expertise" selected disabled>Select Cooking Expertise</option>
           <option value="Sometimes Cook">Sometimes Cook</option>
           <option value="Cook Everyday">Cook Everyday</option>
           <option value="Cooking is a Hobby">Cooking is a Hobby</option>
           <option value="Professional Chef">Professional Chef</option>
         </select>
-        <br>
-
         <label>Review
           <textarea id="review" name="review" cols="50"></textarea>
+          <br>
+          <br>
         </label>
-        <br>
-        <input type="submit" value="Submit Review">
+
+
+
+        <input type="submit" id="button" value="Submit Review">
     </form>
   </section>
 
