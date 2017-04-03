@@ -64,6 +64,7 @@ var getReview = function(event) {
   var reviewText;
   var formChildren = event.target.children;
   for (var i = 0; i < formChildren.length; i++) {
+    debugger
     if (formChildren[i].tagName === "LABEL" && formChildren[i].children[0]) {
       reviewText = formChildren[i].children[0].value;
     }
