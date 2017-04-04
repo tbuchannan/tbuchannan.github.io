@@ -39,7 +39,7 @@ with a class attribute containing 'col-' */
   clear: both;
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1000px) {
   [class*='col-'] {
     width: 100%;
   }
