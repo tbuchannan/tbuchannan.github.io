@@ -1948,6 +1948,14 @@
 					background: #324957;
 				}
 
+				.icon.circle.fa-file-pdf-o{
+					background: #4C9F7A;
+					color: #fff;
+				}
+				.icon.circle.fa-file-pdf-o:hover{
+					background: #5CC397;
+				}
+
 		.icon.featured {
 			cursor: default;
 			display: block;
