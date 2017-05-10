@@ -1,3 +1,3 @@
 [Live][site]
 
-[site]: tbuchannan.me
+[site]: http://www.tbuchannan.me
