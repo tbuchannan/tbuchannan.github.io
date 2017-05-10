@@ -7,7 +7,7 @@
 <html>
 	<head>
 		<title>Terence Buchannan</title>
-		<link rel="icon" href="favicon.png" type="image/png">
+		<link rel="icon" href="favicon.ico" type="image/png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -20,15 +20,12 @@
 	<body class="index">
 		<div id="page-wrapper">
 			<header id="header" class="alt">
-				<div class= "profile">
-					<img src="./images/kool-aid-smile.png" />
-				</div>
 				<nav id="nav">
 					<ul>
 						<!-- <li><a href= class="icon circle fa fa-file-pdf-o"><span class="label">Resume</span></a></li> -->
-						<li class="current"><a href="./assets/myResume.pdf">Resume</a></li>
+						<li class="current"><a href="./assets/myResume.pdf" target="_blank">Resume</a></li>
 						<li class="current"><a href="#footer" class="scrolly">Contact</a></li>
-						<li class="submenu">
+						<!-- <li class="submenu"> -->
 							<!-- <a href="#">Layouts</a>
 							<ul>
 								<li><a href="left-sidebar.html">Left Sidebar</a></li>
@@ -84,7 +81,11 @@
 
 					<header class="special container">
 						<h2><strong>About Me</strong></h2>
-						<p>Hey! I'm a software developer with experience in Ruby on Rails, JavaScript, and React/Redux. I strive for dry and efficient code.</p>
+						<div class="aboutme-container">
+							<img class="about-koolaid" src="./images/kool-aid-smile.png" />
+							<br>
+							<p>Hey! I'm a NYC based software developer with experience in Ruby on Rails, JavaScript, and React/Redux. My love for coding began in junior year in college where I enrolled into "Introduction to Problem Solving with Computers" using Java. Everything about programming was appealing, from nonstop puzzles, to unexpected bugs and debugging. I continued to code after college and have continued to develop my skill set and expand my knowledge. Feel free to reach out with opportunities, to discuss any of my work. I am seeking an opportunity to continue developing my skill set and knowledge and work with a company interested in solving  problems or developing a product I can believe in.</p>
+						</div>
 					</header>
 					<header class="special container">
 						<h2><strong>Skills</strong></h2>
@@ -158,7 +159,7 @@
 								<div class="6u 12u(narrower)">
 
 									<section>
-										<a href="http://keepscrolling.us" class="image featured"><img src="images/delete-post.gif" alt="" /></a>
+										<a href="http://keepscrolling.us" target="_blank" class="image featured"><img src="images/delete-post.gif" alt="" /></a>
 										<header>
 											<h3><!--[-->keepScrolling<!--]--></h3>
 										</header>
@@ -169,7 +170,7 @@
 								<div class="6u 12u(narrower)">
 
 									<section>
-										<a href="https://tbuchannan.me/DOMination" class="image featured"><img src="images/code-snippet.png" alt="" /></a>
+										<a href="http://tbuchannan.me/DOMination" target="_blank" class="image featured"><img src="images/code-snippet.png" alt="" /></a>
 										<header>
 											<h3><!--[-->DOMination<!--]--></h3>
 										</header>
@@ -184,7 +185,7 @@
 								<div class="12u(narrower)">
 
 									<section>
-										<a href="http://tbuchannan.me/appAttack" class=" appattack featured"><img src="images/appattack-ss.png" alt="" /></a>
+										<a href="http://tbuchannan.me/appAttack" target="_blank" class=" appattack featured"><img src="images/appattack-ss.png" alt="" /></a>
 										<header>
 											<h3><!--[-->appAttack!<!--]--></h3>
 										</header>
@@ -224,20 +225,18 @@
 							<br>
 							<div class="contact-container">
 								<ul class="contact-ul">
-									<li>
-										<i class="fa fa-mobile" aria-hidden="true"></i>
-										<span class="contact-info">774-303-5042</span>
-									</li>
+									<li><i class="fa fa-mobile" aria-hidden="true"></i><span class="contact-info">774-303-5042</span></li>
 									<li><i class="fa fa-envelope-o" aria-hidden="true"></i><span class="contact-info">terencebuchannan@gmail.com</span></li>
+									<li><i class="fa fa-home" aria-hidden="true"></i><span class="contact-info">119 Wyckoff Ave, Brooklyn, NY 11237</span></li>
 								</ul>
 							</div>
 							<div>
 								<ul class="icons">
-									<li><a href="https://github.com/tbuchannan" class="icon circle fa-github"><span class="label">Github</span></a></li>
-									<li><a href="https://www.linkedin.com/in/terence-buchannan/" class="icon circle fa fa-linkedin"><span class="label">linkedIn</span></a></li>
-									<li><a href="https://angel.co/terence-buchannan" class="icon circle fa fa-angellist"><span class="label">AngelList</span></a></li>
+									<li><a href="https://github.com/tbuchannan" target="_blank" class="icon circle fa-github"><span class="label">Github</span></a></li>
+									<li><a href="https://www.linkedin.com/in/terence-buchannan/" target="_blank" class="icon circle fa fa-linkedin"><span class="label">linkedIn</span></a></li>
+									<li><a href="https://angel.co/terence-buchannan" target="_blank" class="icon circle fa fa-angellist"><span class="label">AngelList</span></a></li>
 									<li><a href="mailto:terencebuchannan@gmail.com" class="icon circle fa fa-envelope-o"><span class="label">Email</span></a></li>
-									<li><a href="./assets/myResume.pdf" class="icon circle fa fa-file-pdf-o"><span class="label">Resume</span></a></li>
+									<li><a href="./assets/myResume.pdf" target="_blank" class="icon circle fa fa-file-pdf-o"><span class="label">Resume</span></a></li>
 								</ul>
 							</div>
 						</section>

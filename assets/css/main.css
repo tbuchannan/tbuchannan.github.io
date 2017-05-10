@@ -48,6 +48,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	p {
+		user-select: none;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -76,25 +80,9 @@
 		margin-left: 1em;
 	}
 
-	/*.contact-ul {
-		text-align: left;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}*/
-	/*.contact-ul li {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border: solid 1px red;
-	}*/
-/*
-	.contact-container {
-		display: flex;
-		justify-content: center;
-	}*/
 	/* Profile Pic */
 	.profile {
+		height: 2%;
 		display: flex;
 		flex-direction: column;
 		background: rgba(0, 0, 0, 0);
@@ -102,8 +90,20 @@
 	.profile img{
 		display:  flex;
 		width: 2%;
-		height: 2%;
 		border-radius: 80px;
+	}
+
+	/* About Section Photo */
+	.about-koolaid {
+		width: 10em;
+		border-radius: 500em;
+	}
+	/* About Me Container */
+	.aboutme-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
 	}
 
 /* Skill Icons */
@@ -2360,6 +2360,7 @@
 				}
 
 		#header.reveal {
+			padding: 2em 2.5em;
 			-moz-animation: reveal-header 0.5s;
 			-webkit-animation: reveal-header 0.5s;
 			-ms-animation: reveal-header 0.5s;
@@ -2484,7 +2485,7 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/voyage.jpeg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/voyage.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2582,7 +2583,7 @@
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/voyage.jpeg");
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/voyage.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
