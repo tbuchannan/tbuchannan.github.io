@@ -64,7 +64,35 @@
 	.devicon-font {
 		font-size: 5em;
 	}
+	/* Contact Logos  */
+	.contact-logo {
+		border: 1px solid red;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	/* Contact Info */
+	.contact-info{
+		margin-left: 1em;
+	}
 
+	/*.contact-ul {
+		text-align: left;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}*/
+	/*.contact-ul li {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: solid 1px red;
+	}*/
+/*
+	.contact-container {
+		display: flex;
+		justify-content: center;
+	}*/
 	/* Profile Pic */
 	.profile {
 		display: flex;
@@ -1728,7 +1756,7 @@
 			padding-top: 1.5em;
 		}
 
-		header.special .icon {
+		/*header.special .icon {
 			cursor: default;
 			height: 7em;
 			left: 0;
@@ -1736,12 +1764,12 @@
 			text-align: center;
 			top: 1em;
 			width: 100%;
-		}
+		}*/
 
-			header.special .icon:before {
+			/*header.special .icon:before {
 				font-size: 3.5em;
 				opacity: 0.35;
-			}
+			}*/
 
 	footer > :last-child {
 		margin-bottom: 0;
