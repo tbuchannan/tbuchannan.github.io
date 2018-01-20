@@ -1867,7 +1867,7 @@
 
 		.image.featured {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 1em 0;
 			height: 350px;
 			overflow: hidden;
 		}
@@ -1876,10 +1876,6 @@
 				display: block;
 				width: 100%;
 			}
-	.appattack img{
-		width: 100%;
-
-	}
 
 /* Icon */
 
