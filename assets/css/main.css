@@ -18,6 +18,10 @@
 		vertical-align: baseline;
 	}
 
+	html {
+		height: 100%;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1717,9 +1721,12 @@
 		padding-bottom: 2em;
 	}
 
+	header.contact {
+		padding-top: 7em;
+	}
+
 	header.special {
 		margin-bottom: 5em;
-		padding-top: 7em;
 		position: relative;
 		text-align: center;
 	}
